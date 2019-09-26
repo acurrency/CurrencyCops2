@@ -1011,7 +1011,7 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
   .header_area .main_menu .main_box {
-    background: #fff;
+    background: #941494;
     margin: 0px auto 0;
     max-width: 1200px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -1020,7 +1020,7 @@ h1, h2, h3, h4, h5, h6 {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s; }
   .header_area .navbar {
-    background: #fff;
+    background: #941494;
     padding: 0px;
     border: 0px;
     border-radius: 0px; }
