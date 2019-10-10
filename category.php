@@ -51,6 +51,14 @@
                 </div>
     </section>
     <div class="container">
+    <div class="row justify-content-center">
+					<div class="col-lg-6 text-center">
+						<div class="section-title">
+							<h1>Latest Cops</h1>
+							<p>Below is a sneak peak of our latest shoes. Visit the "Shop Inventory" Page in order to see our full stock.</p>
+						</div>
+					</div>
+				</div>
                 <div class="row">
                     <div class="col-xl-12 col-lg-11 col-md-10">
                             <!-- Start Filter Bar -->
