@@ -54,8 +54,8 @@
                 <div class="row">
                     <div class="col-xl-12 col-lg-11 col-md-10">
                             <!-- Start Filter Bar -->
-                            <!--<div class="filter-bar d-flex flex-wrap align-items-center">
-                                <div class="sorting">
+                            <div class="filter-bar d-flex flex-wrap align-items-center">
+                                <!--<div class="sorting">
                                     <select>
                                         <option value="1">Default sorting</option>
                                         <option value="1">Default sorting</option>
@@ -77,8 +77,8 @@
                                     <a href="#" class="dot-dot"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
                                     <a href="#">6</a>
                                     <a href="#" class="next-arrow"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                                </div>
-                            </div> -->
+                                </div>-->
+                            </div> 
 
                             <!-- End Filter Bar -->
 
@@ -90,8 +90,8 @@
                             </section>
                             <!-- End Best Seller -->
                             <!-- Start Filter Bar -->
-                            <!--<div class="filter-bar d-flex flex-wrap align-items-center">
-                                <div class="sorting mr-auto">
+                            <div class="filter-bar d-flex flex-wrap align-items-center">
+                                <!--<div class="sorting mr-auto">
                                     <select>
                                         <option value="1">Show 12</option>
                                         <option value="1">Show 12</option>
@@ -106,8 +106,8 @@
                                     <a href="#" class="dot-dot"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
                                     <a href="#">6</a>
                                     <a href="#" class="next-arrow"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                                </div>
-                            </div> -->
+                                </div> -->
+                            </div>
                             <!-- End Filter Bar -->
                         </div>
                     </div>
