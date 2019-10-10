@@ -15,7 +15,8 @@
         <!-- meta character set -->
         <meta charset="UTF-8">
         <!-- Site Title -->
-        <title>Karma Shop</title>
+        <title>CurrencyCops</title>
+        <link href = "img/product/llogo.png" rel = "icon" type = "image/x-icon">
 
         <!--
             CSS
@@ -53,7 +54,7 @@
                 <div class="row">
                     <div class="col-xl-12 col-lg-11 col-md-10">
                             <!-- Start Filter Bar -->
-                            <div class="filter-bar d-flex flex-wrap align-items-center">
+                            <!--<div class="filter-bar d-flex flex-wrap align-items-center">
                                 <div class="sorting">
                                     <select>
                                         <option value="1">Default sorting</option>
@@ -77,8 +78,10 @@
                                     <a href="#">6</a>
                                     <a href="#" class="next-arrow"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                                 </div>
-                            </div>
+                            </div> -->
+
                             <!-- End Filter Bar -->
+
                             <!-- Start Best Seller -->
                             <section class="lattest-product-area pb-40 category-list">
                                 <div class="row">
@@ -87,7 +90,7 @@
                             </section>
                             <!-- End Best Seller -->
                             <!-- Start Filter Bar -->
-                            <div class="filter-bar d-flex flex-wrap align-items-center">
+                            <!--<div class="filter-bar d-flex flex-wrap align-items-center">
                                 <div class="sorting mr-auto">
                                     <select>
                                         <option value="1">Show 12</option>
@@ -104,7 +107,7 @@
                                     <a href="#">6</a>
                                     <a href="#" class="next-arrow"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                                 </div>
-                            </div>
+                            </div> -->
                             <!-- End Filter Bar -->
                         </div>
                     </div>
@@ -116,8 +119,8 @@
                         <div class="single-footer-widget">
                             <h6>About Us</h6>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore
-                                magna aliqua.
+                            CuurencyCops is here to provide a new perspective to the sneaker resell business
+								Feel free to check out our "About us" page to read our full story.
                             </p>
                         </div>
                     </div>
@@ -151,9 +154,9 @@
                     </div>
                 </div>
                 <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
-                    <p class="footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <p class="footer-text m-0">
     Copyright CurrencyCops &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
-    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    
     </p>
                 </div>
             </div>
