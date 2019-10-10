@@ -54,8 +54,11 @@
     <div class="row justify-content-center">
 					<div class="col-lg-6 text-center">
 						<div class="section-title">
-							<h1>Latest Cops</h1>
-							<p>Below is a sneak peak of our latest shoes. Visit the "Shop Inventory" Page in order to see our full stock.</p>
+							<h1>Shop Iventory</h1>
+							<p>Shown below is a display of our full inventory. 
+                                Add as many shoes to your cart as you would like! 
+                                
+                            </p>
 						</div>
 					</div>
 				</div>
