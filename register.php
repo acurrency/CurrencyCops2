@@ -54,7 +54,7 @@
 
 
 
-<!-- <link href = "register.css" rel = "stylesheet"> -->
+ <link href = "register.css" rel = "stylesheet"> 
 
 <form action="action_page.php">
     <div class="container">
