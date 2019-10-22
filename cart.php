@@ -33,7 +33,6 @@
 <body>
 
 <?php include 'header.php';?>
-<?php include 'connection.php';?>
 
 
     <!-- Start Banner Area -->
@@ -47,6 +46,15 @@
 
 
     <?php
+
+    $dbname = 'currencycops';
+    $dbuser = 'ms7i273jabfw';
+    $dbpass = 'G3t2work!';
+    $dbhost = 'localhost';
+    
+    $link = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname) or die("Unable to Connect to '$dbhost'");
+    mysqli_select_db($link, $dbname) or die("Could not open the db '$dbname'");
+    
     
 $product_array = $db_handle->runQuery("SELECT * FROM tblproduct ORDER BY id ASC");
 if (!empty($product_array)) { 
@@ -54,7 +62,7 @@ if (!empty($product_array)) {
 ?>
 	<div class="product-item">
 		<form method="post" action="index.php?action=add&code=<?php echo $product_array[$key]["code"]; ?>">
-		<div class="product-image"><img src="<?php echo $product_array[$key]["image"]; ?>"></div>
+		<div class="product-img"><img src="<?php echo $product_array[$key]["img"]; ?>"></div>
 		<div class="product-tile-footer">
 		<div class="product-title"><?php echo $product_array[$key]["name"]; ?></div>
 		<div class="product-price"><?php echo "$".$product_array[$key]["price"]; ?></div>
