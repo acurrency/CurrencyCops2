@@ -90,7 +90,7 @@
                 <!-- Canoeing -->
                 <div class="grid-column span-half pt3 pb3 mobile-m order-9">
                     <div class="relative">
-                        <img class="info-image relative z2" src="./img/canoeing.jpg" alt="Canoeing">
+                        <img class="info-image relative z2" src="./img/founder.jpg" alt="Canoeing">
                         <div class="pattern pattern--left-middle absolute z1"></div>
                     </div>
                 </div>
