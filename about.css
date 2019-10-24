@@ -1,6 +1,7 @@
-body {background-image: url(../Images/Miami-bridge-glows-night.jpg);
+body {
     background-size: cover;
     background-attachment: fixed;
+    background-color: #A0A0A0;
 color:#ffffff;
 font-family : Arial, Verdana, sans-serif;}
 
