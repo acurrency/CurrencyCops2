@@ -35,7 +35,7 @@
 </head>
 
 <body>
-
+<div id = "wrapper"> 
 	<!-- Start Header Area -->
 	<header class="header_area sticky-header">
             <div class="main_menu">
@@ -80,6 +80,56 @@
             </div>
         </header>
         <!-- End Header Area -->
+        <main>
+<h2>ITEC Courses Taken Thus Far</h2>
+<ol>
+	<li>Intro to Computing ITEC 1001</li>
+	<li>Programming Fundamentals ITEC 2140</li>
+    <li>Intermediate Programming ITEC 2150</li>
+    <li>Intro to Info Systems ITEC 2201</li>
+    <li>Intro to Networks ITEC 3100</li>
+    <li>Advanced Programming ITEC 3150</li>
+    <li>Intro to Databases ITEC 3200</li>
+    <li>Information Security ITEC 3300</li>
+
+</ol>
+
+<h2>Current ITEC Course Fall 2019</h2>
+<ul>
+<li>Web Technologies</li>
+<li>Operating Systems</li>
+<li>Info Tech Project I</li>
+</ul>
+
+
+<h2>Information Technology Projects Worked On</h2>
+
+<dl>
+<dt>Fulton County Government Center New Website</dt>
+	<dd>During Internship, assistem team in moving content from old website to new.</dd>
+<dt>GGC Course Registration System</dt>
+	<dd>Designed a more efficient way to register students at GGC.</dd>
+
+<h2>ITEC Skills</h2>
+<ul>
+<li>Java Programming</li>
+<li> HTML</li>
+<li>CSS</li>
+<li>Microsoft Suite Efficient</li>
+<li>Ability to type fast</li>
+
+
+</ul>
+
+</dl>
+
+
+
+
+
+
+
+</main>
 
 
 
@@ -101,6 +151,8 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
     <script src="js/gmaps.min.js"></script>
     <script src="js/main.js"></script>
+</div>
+
 </body>
 
 </html>
