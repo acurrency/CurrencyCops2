@@ -35,7 +35,7 @@
 
 <?php include 'header.php';?>
 
-        <!-- Start Banner Area 
+        <!-- Start Banner Area -->
         <section class="banner-area organic-breadcrumb">
                 <div class="container">
                         <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
@@ -49,7 +49,7 @@
                                 </div>
                         </div>
                 </div>
-    </section>-->
+    </section>
     <div class="container">
     <div class="row justify-content-center">
 					<div class="col-lg-6 text-center">
