@@ -123,5 +123,6 @@ if(!empty($sessData['status']['msg'])){
         </div>
     </div>
 </div>
+<?php include 'footer.php';?>
 </body>
 </html>

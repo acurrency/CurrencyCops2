@@ -106,4 +106,5 @@ function updateCartItem(obj,id){
     </div>
 </div>
 </body>
+<?php include 'footer.php';?>
 </html>

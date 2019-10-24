@@ -4,14 +4,7 @@ if(!session_id()){
     session_start(); 
 } 
  
-/** 
- * Shopping Cart Class 
- * 
- * @package        PHP Library 
- * @category    Shopping Cart 
- * @author        CodexWorld Dev Team 
- * @link        https://www.codexworld.com 
- */ 
+
 class Cart { 
     protected $cart_contents = array(); 
      
