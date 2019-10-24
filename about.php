@@ -41,12 +41,7 @@
                         
                 </div>
     <!-- Header -->
-    <header class="pt2 pb1 align--center">
-        <div class="container">
-            <p>Welcome to</p>
-            <h1 title="Camp Chippewa"><img class="logo" src="./img/logo.svg" alt="Camp Chippewa"></h1>
-        </div>
-    </header>
+    
 
     <!-- Body -->
     <main>
