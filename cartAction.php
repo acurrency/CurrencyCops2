@@ -128,3 +128,4 @@ if(isset($_REQUEST['action']) && !empty($_REQUEST['action'])){
 // Redirect to the specific page 
 header("Location: $redirectLoc"); 
 exit();
+?>

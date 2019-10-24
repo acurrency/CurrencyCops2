@@ -188,3 +188,4 @@ class Cart {
         unset($_SESSION['cart_contents']); 
     } 
 }
+?>
