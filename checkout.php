@@ -25,7 +25,7 @@ if(!empty($sessData['status']['msg'])){
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <title>Checkout - CurrencyCops</title>
 <meta charset="utf-8">
@@ -47,7 +47,9 @@ if(!empty($sessData['status']['msg'])){
 <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<header class="header_area sticky-header">
 <?php include 'header.php';?>
+</header>
 <div class="container">
     <h1>CHECKOUT</h1>
     <div class="col-12">
