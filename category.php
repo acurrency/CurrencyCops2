@@ -1,3 +1,11 @@
+<?php 
+// Initialize shopping cart class 
+include_once 'Cart.class.php'; 
+$cart = new Cart; 
+ 
+// Include the database config file 
+require_once 'dbConfig.php'; 
+?>
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 
