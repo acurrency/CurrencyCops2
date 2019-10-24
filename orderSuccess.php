@@ -91,7 +91,7 @@ if($result->num_rows > 0){
                     </tbody>
                 </table>
             </div>
-        <?php } }else{ ?>
+        <?php }else{ ?>
         <div class="col-md-12">
             <div class="alert alert-danger">Your order submission failed.</div>
         </div>
