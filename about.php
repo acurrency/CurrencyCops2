@@ -18,6 +18,7 @@
 	<!-- Site Title -->
 	<title>About CurrencyCops</title>
 	<link href = "img/product/llogo.png" rel = "icon" type = "image/x-icon">
+    <link href = "production.css" rel = "stylesheet">
 
 	<!--
 		CSS
