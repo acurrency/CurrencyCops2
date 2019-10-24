@@ -16,7 +16,9 @@
 	<meta charset="UTF-8">
 	<!-- Site Title -->
 	<title>CurrencyCops</title>
-	<link href = "img/product/llogo.png" rel = "icon" type = "image/x-icon">
+    <link href = "img/product/llogo.png" rel = "icon" type = "image/x-icon">
+    <link href = "about.css" rel = "stylesheet">
+
 
 	<!--
 		CSS
