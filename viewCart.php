@@ -27,7 +27,7 @@ require_once 'dbConfig.php';
 <link rel="stylesheet" href="css/main.css">
 
 <!-- Custom style -->
-<!-- <link href="css/style.css" rel="stylesheet"> -->
+<link href="css/style.css" rel="stylesheet">
 
 <!-- jQuery library -->
 <script src="js/main.js"></script>
@@ -71,9 +71,8 @@ function updateCartItem(obj,id){
                             ?>
                             <tr>
                                 <td><?php echo $item["name"]; ?></td>
-                                <td><?php echo "<img class=\"img-fluid\" src=\"$item['img']\" alt=\"\">";?></td>
                                 <td><?php echo '$'.$item["price"].' USD'; ?></td>
-                                <td><input class="form-control" type="number" value="<?php echo $item["qty"]; ?>" onchange="updateCartItem(this, '<?php echo $item["rowid"]; ?>')"/></td>
+                                <td><input class="form-control" type="number" value="<?php echo $item['qty']; ?>" onchange="updateCartItem(this, '<?php echo $item['rowid']; ?>')"/></td>
                                 <td class="text-right"><?php echo '$'.$item["subtotal"].' USD'; ?></td>
                                 <td class="text-right"><button class="btn btn-sm btn-danger" onclick="return confirm('Are you sure?')?window.location.href='cartAction.php?action=removeCartItem&id=<?php echo $item["rowid"]; ?>':false;"><i class="itrash"></i> </button> </td>
                             </tr>
