@@ -48,6 +48,11 @@ if(!empty($sessData['status']['msg'])){
 </head>
 <body>
 <?php include 'header.php';?>
+<section class="banner-area organic-breadcrumb">
+                <div class="container">
+                        
+                </div>
+    </section>
 <div class="container">
     <h1>CHECKOUT</h1>
     <div class="col-12">
@@ -88,7 +93,7 @@ if(!empty($sessData['status']['msg'])){
                             <strong><?php echo '$'.$cart->total(); ?></strong>
                         </li>
                     </ul>
-                    <a href="index.php" class="btn btn-block btn-info">Add Items</a>
+                    <a href="category.php" class="btn btn-block btn-info">Add Items</a>
                 </div>
                 <div class="col-md-8 order-md-1">
                     <h4 class="mb-3">Contact Details</h4>
@@ -124,8 +129,6 @@ if(!empty($sessData['status']['msg'])){
     </div>
 </div>
 <script src="js/vendor/jquery-2.2.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-        crossorigin="anonymous"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
