@@ -8,7 +8,7 @@ require_once 'dbConfig.php';
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <title>Cart - CurrencyCops</title>
 <meta charset="utf-8">
