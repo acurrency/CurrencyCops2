@@ -88,17 +88,18 @@
                     </div>
                 </div>
                 <!-- Canoeing -->
-                <div class="grid-column span-half pt3 pb3 mobile-m order-9">
-                    <div class="relative">
-                        <img class="info-image relative z2" src="./img/founder.jpg" alt="Canoeing">
-                        <div class="pattern pattern--left-middle absolute z1"></div>
-                    </div>
-                </div>
+                
                 <div class="grid-column span-half pt3 pb3 mobile-m order-10">
                     <h3>Stay Social</h3>
                     <p>Be sure to stay connected with us by following us on social media @currencycops.Here you will find the latest updates
                         redgarding our website, shoe deals, and much more!
                     </p>
+                </div>
+                <div class="grid-column span-half pt3 pb3 mobile-m order-9">
+                    <div class="relative">
+                        <img class="info-image relative z2" src="./img/social.png" alt="Social">
+                        <div class="pattern pattern--left-middle absolute z1"></div>
+                    </div>
                 </div>
             </section>
 
