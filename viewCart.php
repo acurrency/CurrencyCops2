@@ -45,9 +45,13 @@ function updateCartItem(obj,id){
 </script>
 </head>
 <body>
-<div class="header">
+
 <?php include 'header.php';?>
-</div>
+<section class="banner-area organic-breadcrumb">
+                <div class="container">
+                        
+                </div>
+    </section>
 <div class="container">
     <h1>SHOPPING CART</h1>
     <div class="row">
