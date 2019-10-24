@@ -56,7 +56,7 @@
                 <!-- Cabin -->
                 <div class="grid-column span-half pt3 pb3 mobile-m order-1">
                     <div class="relative">
-                        <img class="info-image relative z2" src="img/welcome.jpg" alt="Cabin">
+                        <img class="info-image relative z2" src="img/welcome.jpg" alt="Welcome">
                         <div class="pattern pattern--left-down absolute z1"></div>
                     </div>
                 </div>
@@ -71,14 +71,14 @@
                 </div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-3">
                     <div class="relative">
-                        <img class="info-image relative z2" src="./img/teepee.jpg" alt="Teepee">
+                        <img class="info-image relative z2" src="img/vision.jpg" alt="Vision">
                         <div class="pattern pattern--right-middle absolute z1"></div>
                     </div>
                 </div>
                 <!-- Fishing -->
                 <div class="grid-column span-half pt3 pb3 mobile-m order-5">
                     <div class="relative">
-                        <img class="info-image relative z2" src="img/founder.jpg" alt="Founder">
+                        <img class="info-image relative z2" src="../img/founder.jpg" alt="Founder">
                         <div class="pattern pattern--left-up absolute z1"></div>
                     </div>
                 </div>
