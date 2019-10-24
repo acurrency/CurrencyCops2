@@ -2,28 +2,21 @@
 # Fill our vars and run on cli
 # $ php -f db-connect-test.php
 
-$dbname = 'currencycops';
-$dbuser = 'ms7i273jabfw';
-$dbpass = 'G3t2work!';
-$dbhost = 'localhost';
+// Initialize shopping cart class 
+include_once 'Cart.class.php'; 
+$cart = new Cart; 
+ 
+// Include the database config file 
+require_once 'dbConfig.php'; 
 
-$link = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname) or die("Unable to Connect to '$dbhost'");
-mysqli_select_db($link, $dbname) or die("Could not open the db '$dbname'");
+$result = $db->query("SELECT * FROM products ORDER BY id DESC LIMIT 10");
 
-$test_query = "SELECT * FROM shoes";
-$result = mysqli_query($link, $test_query);
-
-#$tblCnt = 0;
-#while($rows = mysqli_fetch_array($result)) {
- # $tblCnt++;
- # $image = $rows['img'];
-  #echo "<img src = '$image' >";
-  #echo "<br>";
-#}
- while ($rows = mysqli_fetch_array($result)){
+if($result->num_rows > 0){ 
+ while ($row = $result->fetch_assoc()){
                                           $img = $rows['img'];
                                           $name = $rows['name'];
                                           $price = $rows['price'];
+                                          $id = $rows['id'];
                                             echo "<div class=\"col-lg-4 col-md-7\">
                                                     <div class=\"single-product\">
                                                         <img class=\"img-fluid\" src=\"$img\" alt=\"\">
@@ -33,7 +26,7 @@ $result = mysqli_query($link, $test_query);
                                                                 <h6>\$$price</h6>
                                                             </div>
                                                             <div class=\"prd-bottom\">
-                                                                <a href=\"\" class=\"social-info\">
+                                                                <a href=\"cartAction.php?action=addToCart&id=$id\" class=\"social-info\">
                                                                     <span class=\"ti-bag\"></span>
                                                                     <p class=\"hover-text\">add to bag</p>
                                                                 </a>
@@ -42,5 +35,7 @@ $result = mysqli_query($link, $test_query);
                                                     </div>
                                                 </div>";
                                     }
- 
+                                }else{
+                                    echo "<p>Product(s) not found.....<p>"
+                                }
 ?>
