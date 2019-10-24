@@ -16,7 +16,7 @@ if($result->num_rows > 0){
                                           $img = $rows['img'];
                                           $name = $rows['name'];
                                           $price = $rows['price'];
-                                          $id = $rows['id'];
+                                          $id = $rows["id"];
                                             echo "<div class=\"col-lg-4 col-md-7\">
                                                     <div class=\"single-product\">
                                                         <img class=\"img-fluid\" src=\"$img\" alt=\"\">
