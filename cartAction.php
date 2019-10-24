@@ -107,15 +107,15 @@ if(isset($_REQUEST['action']) && !empty($_REQUEST['action'])){
                         $redirectLoc = 'orderSuccess.php?id='.$orderID; 
                     }else{ 
                         $sessData['status']['type'] = 'error'; 
-                        $sessData['status']['msg'] = 'Some problem occurred, please try again.'; 
+                        $sessData['status']['msg'] = 'Unable to add order items into database, please contact site admin..'; 
                     } 
                 }else{ 
                     $sessData['status']['type'] = 'error'; 
-                    $sessData['status']['msg'] = 'Some problem occurred, please try again.'; 
+                    $sessData['status']['msg'] = 'Unable to add order info into database, please contact site admin.'; 
                 } 
             }else{ 
                 $sessData['status']['type'] = 'error'; 
-                $sessData['status']['msg'] = 'Some problem occurred, please try again.'; 
+                $sessData['status']['msg'] = 'Unable to insert customer data into database, please contact site admin..'; 
             } 
         }else{ 
             $sessData['status']['type'] = 'error'; 
