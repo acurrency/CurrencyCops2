@@ -81,10 +81,10 @@
                     <h3>Founder</h3>
                     <p>Que Manilium, ab iisque M. Intellegi quidem, ut propter aliam quampiam rem, verbi gratia propter voluptatem, nos amemus; An eum locum libenter invisit&nbsp;ultimas.</p>
                 </div>
-                <div class="grid-column span-half pt3 pb3 mobile-m order-5">
+                <div class="grid-column span-half pt3 pb3 mobile-m order-9">
                     <div class="relative">
-                        <img class="info-image relative z2" src="img/founder.jpg" alt="Founder">
-                        <div class="pattern pattern--left-up absolute z1"></div>
+                        <img class="info-image relative z2" src="./img/founder.jpg" alt="Founder">
+                        <div class="pattern pattern--left-middle absolute z1"></div>
                     </div>
                 </div>
                 <!-- Canoeing -->
