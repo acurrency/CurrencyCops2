@@ -35,10 +35,10 @@
 
 <?php include 'header.php';?>
 
-<section class="banner-area organic-breadcrumb">
+<!-- <section class="banner-area organic-breadcrumb">
                 <div class="container">
                         
-                </div>
+                </div> -->
 
 
-<?php include 'footer.php';?>
+                <?php include 'footer.php';?>
