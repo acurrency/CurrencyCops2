@@ -62,12 +62,16 @@
                 </div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-2">
                     <h3>Welcome</h3>
-                    <p>Illa argumenta propria videamus, cur omnia sint paria peccata. Quamquam te quidem video minime esse deterritum. Beatus sibi videtur esse moriens. In qua quid est boni praeter summam&nbsp;voluptatem.</p>
+                    <p>We are glad that found us! CurrencyCopsexists to provide a more modern and unique
+                        way of purchasing, reselling, and browsing of sneakers.  
+                    </p>
                 </div>
                 <!-- Teepees -->
                 <div class="grid-column span-half pt3 pb3 mobile-m order-4">
                     <h3>Our Vision</h3>
-                    <p>A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Laelius clamores sofòw ille so lebat Edere compellans gumias ex ordine&nbsp;nostros.</p>
+                    <p>The vision of CurrencyCops is to become the most efficient, user friendly sneaker selling site on the
+                         market. Eventually we plan to everyone's "Go to" sneaker site.
+                    </p>
                 </div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-3">
                     <div class="relative">
@@ -79,7 +83,7 @@
                 
                 <div class="grid-column span-half pt3 pb3 mobile-m order-6">
                     <h3>Founder</h3>
-                    <p>Que Manilium, ab iisque M. Intellegi quidem, ut propter aliam quampiam rem, verbi gratia propter voluptatem, nos amemus; An eum locum libenter invisit&nbsp;ultimas.</p>
+                    <p>Christopher Phillips is the proud founder of CurrencyCops.</p>
                 </div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-5">
                     <div class="relative">
