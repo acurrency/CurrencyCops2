@@ -53,8 +53,8 @@
 							<li class="nav-item"><a class="nav-link" href="category.php">Shop Inventory</a></li>
 							<li class="nav-item"><a class="nav-link" href="index.html">Link-Up</a></li>
 							<li class="nav-item"><a class="nav-link" href="index.html">Fresh Styles</a></li>
-							<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-							<li class="nav-item"><a class="nav-link" href="index.php">Login</a></li>
+							<li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
+							<li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
 
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
