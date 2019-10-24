@@ -2,7 +2,7 @@
 // Include the database config file 
 require_once 'dbConfig.php'; 
 
-$result = $db->query("SELECT * FROM products ORDER BY id DESC LIMIT 10");
+$result = $db->query("SELECT * FROM products ORDER BY id DESC");
 
 if($result->num_rows > 0){ 
  while ($rows = $result->fetch_assoc()){
