@@ -62,7 +62,7 @@ if(!empty($sessData['status']['msg'])){
                 <div class="col-md-12">
                     <div class="alert alert-success"><?php echo $statusMsg; ?></div>
                 </div>
-                <?php elseif(!empty($statusMsg) && ($statusMsgType == 'error')){ ?>
+                <?php }elseif(!empty($statusMsg) && ($statusMsgType == 'error')){ ?>
                 <div class="col-md-12">
                     <div class="alert alert-danger"><?php echo $statusMsg; ?></div>
                 </div>
