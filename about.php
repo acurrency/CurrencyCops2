@@ -75,18 +75,18 @@
                         <div class="pattern pattern--right-middle absolute z1"></div>
                     </div>
                 </div>
-                <!-- Fishing -->
-                <div class="grid-column span-half pt3 pb3 mobile-m order-5">
-                    <div class="relative">
-                        <img class="info-image relative z2" src="../img/founder.jpg" alt="Founder">
-                        <div class="pattern pattern--left-up absolute z1"></div>
-                    </div>
-                </div>
+                <!-- Founder -->
+                
                 <div class="grid-column span-half pt3 pb3 mobile-m order-6">
                     <h3>Founder</h3>
                     <p>Que Manilium, ab iisque M. Intellegi quidem, ut propter aliam quampiam rem, verbi gratia propter voluptatem, nos amemus; An eum locum libenter invisit&nbsp;ultimas.</p>
                 </div>
-                
+                <div class="grid-column span-half pt3 pb3 mobile-m order-5">
+                    <div class="relative">
+                        <img class="info-image relative z2" src="img/founder.jpg" alt="Founder">
+                        <div class="pattern pattern--left-up absolute z1"></div>
+                    </div>
+                </div>
                 <!-- Canoeing -->
                 <div class="grid-column span-half pt3 pb3 mobile-m order-9">
                     <div class="relative">
@@ -96,7 +96,9 @@
                 </div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-10">
                     <h3>Stay Social</h3>
-                    <p>Nam si propter voluptatem, quae est ista laus, quae possit e macello peti? Sin te auctoritas commovebat, nobisne omnibus et Platoni ipsi nescio quem illum&nbsp;anteponebas.</p>
+                    <p>Be sure to stay connected with us by following us on social media @currencycops.Here you will find the latest updates
+                        redgarding our website, shoe deals, and much more!
+                    </p>
                 </div>
             </section>
 
