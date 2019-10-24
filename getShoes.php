@@ -36,6 +36,6 @@ if($result->num_rows > 0){
                                                 </div>";
                                     }
                                 }else{
-                                    echo "<p>Product(s) not found.....<p>"
+                                    echo "<p>Product(s) not found.....<p>";
                                 }
 ?>
