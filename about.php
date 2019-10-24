@@ -56,7 +56,7 @@
                 <!-- Cabin -->
                 <div class="grid-column span-half pt3 pb3 mobile-m order-1">
                     <div class="relative">
-                        <img class="info-image relative z2" src="./img/cabin.jpg" alt="Cabin">
+                        <img class="info-image relative z2" src="img/welcome.jpg" alt="Cabin">
                         <div class="pattern pattern--left-down absolute z1"></div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                 <!-- Fishing -->
                 <div class="grid-column span-half pt3 pb3 mobile-m order-5">
                     <div class="relative">
-                        <img class="info-image relative z2" src="./img/fishing.jpg" alt="Fishing">
+                        <img class="info-image relative z2" src="img/founder.jpg" alt="Founder">
                         <div class="pattern pattern--left-up absolute z1"></div>
                     </div>
                 </div>
@@ -113,25 +113,25 @@
             <div class="container">
                 <div class="mb2 align--center">
                     <h3 class="mb1">Contact us for more information regarding CurrencyCops.</h3>
-                    <p>We will be in contacts with you soon!</p>
+                    <p>We will be in contact with you soon!</p>
                 </div>
                 <form>
                     <div class="grid-row">
                         <div class="grid-column span-half mt1">
-                            <label class="label" for="name">First name:</label>
-                            <input class="form-control" id="name">
+                            <label class="label" for="name">First name</label>
+                            <input class="form-control" id="fname">
                         </div>
                         <div class="grid-column span-half mt1">
-                            <label class="label" for="email">Last name:</label>
-                            <input class="form-control" id="email" type="email">
+                            <label class="label" for="email">Last name</label>
+                            <input class="form-control" id="lname" type="text">
                         </div>
                         <div class="grid-column span-half mt1">
-                            <label class="label" for="email">Email:</label>
+                            <label class="label" for="email">Email</label>
                             <input class="form-control" id="email" type="email">
                         </div>
                     </div>
                     
-                    <label class="label mt1" for="message">Message:</label>
+                    <label class="label mt1" for="message">Message</label>
                     <textarea class="form-control" id="message"></textarea>
                     <div class="align--right mt1">
                         <button class="btn btn--outline">Send</button>
