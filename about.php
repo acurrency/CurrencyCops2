@@ -3,35 +3,37 @@
 <html lang="en-us">
 
     <head>
+<!-- Mobile Specific Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="img/fav.png">
+	<!-- Author Meta -->
+	<meta name="author" content="CodePixar">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>About CurrencyCops</title>
+	<link href = "img/product/llogo.png" rel = "icon" type = "image/x-icon">
 
-        <!-- OPL Demos Google Analytics -->
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-3920997-4', 'auto');
-            ga('send', 'pageview');
-        </script>
+	<!--
+		CSS
+		============================================= -->
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/nouislider.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
 
-        <!-- Meta -->
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
+        
 
-        <title>Currency Cops</title>
-        <meta name="description" content="">
-        <meta name="robots" content="noindex, nofollow" />
-
-        <!-- The compiled CSS file -->
-        <link rel="stylesheet" href="css/production.css">
-
-        <!-- Web fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
-
-        <!-- favicon.ico. Place these in the root directory. -->
-        <link rel="shortcut icon" href="favicon.ico">
-
+        
     </head>
 
     <body>
