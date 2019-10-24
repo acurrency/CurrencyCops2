@@ -45,7 +45,7 @@ function updateCartItem(obj,id){
 </script>
 </head>
 <body>
-<div class="container">
+<div class="header">
 <?php include 'header.php';?>
 </div>
 <div class="container">
