@@ -12,19 +12,19 @@ $cart = new Cart;
 
 <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="css/linearicons.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/themify-icons.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/owl.carousel.css">
-	<link rel="stylesheet" href="css/nice-select.css">
-	<link rel="stylesheet" href="css/nouislider.min.css">
-	<link rel="stylesheet" href="css/ion.rangeSlider.css" />
-	<link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css" />
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/themify-icons.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/nice-select.css">
+<link rel="stylesheet" href="css/nouislider.min.css">
+<link rel="stylesheet" href="css/ion.rangeSlider.css" />
+<link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css" />
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="css/main.css">
 
 <!-- Custom style -->
-<link href="css/style.css" rel="stylesheet">
+<!-- <link href="css/style.css" rel="stylesheet"> -->
 
 <!-- jQuery library -->
 <script src="js/main.js"></script>
@@ -68,7 +68,7 @@ function updateCartItem(obj,id){
                             ?>
                             <tr>
                                 <td><?php echo $item["name"]; ?></td>
-                                <td><?php echo "<img class=\"img-fluid\" src=\"$item['img']\" alt=\"\">"?></td>
+                                <td><?php echo "<img class=\"img-fluid\" src=\"$item['img']\" alt=\"\">";?></td>
                                 <td><?php echo '$'.$item["price"].' USD'; ?></td>
                                 <td><input class="form-control" type="number" value="<?php echo $item["qty"]; ?>" onchange="updateCartItem(this, '<?php echo $item["rowid"]; ?>')"/></td>
                                 <td class="text-right"><?php echo '$'.$item["subtotal"].' USD'; ?></td>
