@@ -82,6 +82,10 @@
             </div>
         </header>
         <!-- End Header Area -->
+        <section class="banner-area organic-breadcrumb">
+                <div class="container">
+                        
+                </div>
         <main>
 <h2>ITEC Courses Taken Thus Far</h2>
 <ol>
