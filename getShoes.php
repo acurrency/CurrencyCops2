@@ -12,7 +12,7 @@ require_once 'dbConfig.php';
 $result = $db->query("SELECT * FROM products ORDER BY id DESC LIMIT 10");
 
 if($result->num_rows > 0){ 
- while ($row = $result->fetch_assoc()){
+ while ($rows = $result->fetch_assoc()){
                                           $img = $rows['img'];
                                           $name = $rows['name'];
                                           $price = $rows['price'];
