@@ -18,6 +18,7 @@
 	<!-- Site Title -->
 	<title>About CurrencyCops</title>
 	<link href = "img/product/llogo.png" rel = "icon" type = "image/x-icon">
+    <link href = "production.css" rel = "stylesheet">
 
 	<!--
 		CSS
@@ -55,57 +56,54 @@
                 <!-- Cabin -->
                 <div class="grid-column span-half pt3 pb3 mobile-m order-1">
                     <div class="relative">
-                        <img class="info-image relative z2" src="./img/cabin.jpg" alt="Cabin">
+                        <img class="info-image relative z2" src="img/welcome.jpg" alt="Welcome">
                         <div class="pattern pattern--left-down absolute z1"></div>
                     </div>
                 </div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-2">
-                    <h3>Cabin</h3>
-                    <p>Illa argumenta propria videamus, cur omnia sint paria peccata. Quamquam te quidem video minime esse deterritum. Beatus sibi videtur esse moriens. In qua quid est boni praeter summam&nbsp;voluptatem.</p>
+                    <h3>Welcome</h3>
+                    <p>We are glad that found us! CurrencyCopsexists to provide a more modern and unique
+                        way of purchasing, reselling, and browsing of sneakers.  
+                    </p>
                 </div>
                 <!-- Teepees -->
                 <div class="grid-column span-half pt3 pb3 mobile-m order-4">
-                    <h3>Teepees</h3>
-                    <p>A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Laelius clamores sofòw ille so lebat Edere compellans gumias ex ordine&nbsp;nostros.</p>
+                    <h3>Our Vision</h3>
+                    <p>The vision of CurrencyCops is to become the most efficient, user friendly sneaker selling site on the
+                         market. Eventually we plan to everyone's "Go to" sneaker site.
+                    </p>
                 </div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-3">
                     <div class="relative">
-                        <img class="info-image relative z2" src="./img/teepee.jpg" alt="Teepee">
+                        <img class="info-image relative z2" src="img/vision.jpg" alt="Vision">
                         <div class="pattern pattern--right-middle absolute z1"></div>
                     </div>
                 </div>
-                <!-- Fishing -->
+                <!-- Founder -->
+                
+                <div class="grid-column span-half pt3 pb3 mobile-m order-6">
+                    <h3>Founder</h3>
+                    <p>Christopher Phillips is the proud founder of CurrencyCops.</p>
+                </div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-5">
                     <div class="relative">
-                        <img class="info-image relative z2" src="./img/fishing.jpg" alt="Fishing">
+                        <img class="info-image relative z2" src="img/founder.jpg" alt="Founder">
                         <div class="pattern pattern--left-up absolute z1"></div>
                     </div>
                 </div>
-                <div class="grid-column span-half pt3 pb3 mobile-m order-6">
-                    <h3>Fishing</h3>
-                    <p>Que Manilium, ab iisque M. Intellegi quidem, ut propter aliam quampiam rem, verbi gratia propter voluptatem, nos amemus; An eum locum libenter invisit&nbsp;ultimas.</p>
-                </div>
-                <!-- Archery -->
-                <div class="grid-column span-half pt3 pb3 mobile-m order-8">
-                    <h3>Archery</h3>
-                    <p>At ille pellit, qui permulcet sensum voluptate. Quid in isto egregio tuo officio et tanta fide-sic enim existimo-ad corpus refers? Nec vero sum nescius esse utilitatem in&nbsp;historia.</p>
-                </div>
-                <div class="grid-column span-half pt3 pb3 mobile-m order-7">
-                    <div class="relative">
-                        <img class="info-image relative z2" src="./img/archery.jpg" alt="Archery">
-                        <div class="pattern pattern--right-down absolute z1"></div>
-                    </div>
-                </div>
                 <!-- Canoeing -->
+                
+                <div class="grid-column span-half pt3 pb3 mobile-m order-10">
+                    <h3>Stay Social</h3>
+                    <p>Be sure to stay connected with us by following us on social media @currencycops.Here you will find the latest updates
+                        redgarding our website, shoe deals, and much more!
+                    </p>
+                </div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-9">
                     <div class="relative">
-                        <img class="info-image relative z2" src="./img/canoeing.jpg" alt="Canoeing">
+                        <img class="info-image relative z2" src="./img/social.png" alt="Social">
                         <div class="pattern pattern--left-middle absolute z1"></div>
                     </div>
-                </div>
-                <div class="grid-column span-half pt3 pb3 mobile-m order-10">
-                    <h3>Canoeing</h3>
-                    <p>Nam si propter voluptatem, quae est ista laus, quae possit e macello peti? Sin te auctoritas commovebat, nobisne omnibus et Platoni ipsi nescio quem illum&nbsp;anteponebas.</p>
                 </div>
             </section>
 
@@ -113,30 +111,33 @@
 
         <!-- Pricing -->
         <section class="align--center pt2 pb3">
-            <p class="h2">Rent the whole place for $3,670/night.</p>
-            <p>Maximum of 40 people.</p>
+            <p class="h2">We just opend the doors to a new way of sneaker selling.</p>
+            <p>Ride the wave!</p>
         </section>
 
         <!-- Contact -->
         <section class="bg--secondary-color pt3 pb3">
             <div class="container">
                 <div class="mb2 align--center">
-                    <h3 class="mb1">Contact us to get started</h3>
-                    <p>We'll reply when we get back from&nbsp;fishing.</p>
+                    <h3 class="mb1">Contact us for more information regarding CurrencyCops.</h3>
+                    <p>We will be in contact with you soon!</p>
                 </div>
                 <form>
                     <div class="grid-row">
                         <div class="grid-column span-half mt1">
-                            <label class="label" for="name">Name</label>
-                            <input class="form-control" id="name">
+                            <label class="label" for="name">First name</label>
+                            <input class="form-control" id="fname">
+                        </div>
+                        <div class="grid-column span-half mt1">
+                            <label class="label" for="email">Last name</label>
+                            <input class="form-control" id="lname" type="text">
                         </div>
                         <div class="grid-column span-half mt1">
                             <label class="label" for="email">Email</label>
                             <input class="form-control" id="email" type="email">
                         </div>
                     </div>
-                    <label class="label mt1" for="dates">Timeline</label>
-                    <input class="form-control" id="dates">
+                    
                     <label class="label mt1" for="message">Message</label>
                     <textarea class="form-control" id="message"></textarea>
                     <div class="align--right mt1">
