@@ -40,6 +40,11 @@ if($result->num_rows > 0){
 </head>
 <body>
 <?php include 'header.php';?>
+<section class="banner-area organic-breadcrumb">
+                <div class="container">
+                        
+                </div>
+</section>
 <div class="container">
     <h1>ORDER STATUS</h1>
     <div class="col-12">
