@@ -4,7 +4,7 @@
 <?php require_once( ROOT_PATH . '/includes/public_functions.php') ?>
 <!-- Retrieve all posts from database  -->
 <?php $posts = getPublishedPosts(); ?>
-
+<!DOCTYPE html>
 <title>Link-Up CurrencyCops</title>
 </head>
 <body>
