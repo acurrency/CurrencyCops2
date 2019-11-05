@@ -1,5 +1,5 @@
 <!-- The first include should be config.php -->
-<?php require_once('dbConfig.php') ?>
+<?php require_once 'dbConfig.php'; ?>
 <?php require_once( ROOT_PATH . '/includes/head_section.php') ?>
 <?php require_once( ROOT_PATH . '/includes/public_functions.php') ?>
 <!-- Retrieve all posts from database  -->
