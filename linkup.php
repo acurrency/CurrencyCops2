@@ -46,3 +46,6 @@
 		<!-- footer -->
 		<?php include( ROOT_PATH . '/includes/footer.php') ?>
 		<!-- // footer -->
+
+</body>
+</html>
