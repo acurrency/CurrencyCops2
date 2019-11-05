@@ -1,55 +1,48 @@
-<!DOCTYPE html>
-<html lang="zxx" class="no-js">
+<!-- The first include should be config.php -->
+<?php require_once('dbConfig.php') ?>
+<?php require_once( ROOT_PATH . '/includes/head_section.php') ?>
+<?php require_once( ROOT_PATH . '/includes/public_functions.php') ?>
+<!-- Retrieve all posts from database  -->
+<?php $posts = getPublishedPosts(); ?>
 
-<head>
-        <!-- Mobile Specific Meta -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Favicon-->
-        <link rel="shortcut icon" href="img/fav.png">
-        <!-- Author Meta -->
-        <meta name="author" content="CodePixar">
-        <!-- Meta Description -->
-        <meta name="description" content="">
-        <!-- Meta Keyword -->
-        <meta name="keywords" content="">
-        <!-- meta character set -->
-        <meta charset="UTF-8">
-        <!-- Site Title -->
-        <title>LinkUp</title>
-        <link href = "img/product/llogo.png" rel = "icon" type = "image/x-icon">
-
-        <!--
-            CSS
-            ============================================= -->
-        <link rel="stylesheet" href="css/linearicons.css">
-        <link rel="stylesheet" href="css/owl.carousel.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/themify-icons.css">
-        <link rel="stylesheet" href="css/nice-select.css">
-        <link rel="stylesheet" href="css/nouislider.min.css">
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/main.css">
+<title>Link-Up CurrencyCops</title>
 </head>
+<body>
+	<!-- container - wraps whole page -->
+	<div class="container">
+		<!-- navbar -->
+		<?php include( ROOT_PATH . '/includes/navbar.php') ?>
+		<!-- // navbar -->
 
-<body id="category">
+		<!-- banner -->
+		<?php include( ROOT_PATH . '/includes/banner.php') ?>
+		<!-- // banner -->
 
-<?php include 'header.php';?>
-<?php include 'footer.php';?>
+		<!-- Page content -->
+		<div class="content">
+			<h2 class="content-title">Recent Articles</h2>
+			<hr>
+            <!-- more content still to come here ... -->
+            
+            <!-- Add this ... -->
+<?php foreach ($posts as $post): ?>
+	<div class="post" style="margin-left: 0px;">
+		<img src="<?php echo BASE_URL . '/static/images/' . $post['image']; ?>" class="post_image" alt="">
+		<a href="single_post.php?post-slug=<?php echo $post['slug']; ?>">
+			<div class="post_info">
+				<h3><?php echo $post['title'] ?></h3>
+				<div class="info">
+					<span><?php echo date("F j, Y ", strtotime($post["created_at"])); ?></span>
+					<span class="read_more">Read more...</span>
+				</div>
+			</div>
+		</a>
+	</div>
+<?php endforeach ?>
 
-<script src="js/vendor/jquery-2.2.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-        crossorigin="anonymous"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/nouislider.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <!--gmaps Js-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-    <script src="js/gmaps.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
+		</div>
+		<!-- // Page content -->
 
-</html>
+		<!-- footer -->
+		<?php include( ROOT_PATH . '/includes/footer.php') ?>
+		<!-- // footer -->

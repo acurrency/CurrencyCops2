@@ -15,7 +15,7 @@
         <!-- meta character set -->
         <meta charset="UTF-8">
         <!-- Site Title -->
-        <title>CurrencyCops Fresh-Styles</title>
+        <title>LinkUp</title>
         <link href = "img/product/llogo.png" rel = "icon" type = "image/x-icon">
 
         <!--
@@ -34,8 +34,6 @@
 <body id="category">
 
 <?php include 'header.php';?>
-
-
 <?php include 'footer.php';?>
 
 <script src="js/vendor/jquery-2.2.4.min.js"></script>
