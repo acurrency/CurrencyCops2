@@ -357,7 +357,6 @@ $(function(){
                         
                 </div>
     </section>-->
-<?php include 'header.php';?>
 
 <div class="header">
     <ul class="nav">
