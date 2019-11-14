@@ -37,17 +37,17 @@ div.hheader {
   box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
-div.hheader ul.nav {
+div.hheader ul.nnav {
   overflow:hidden;
 }
-div.hheader ul.nav li {
+div.hheader ul.nnav li {
   float:left;
   margin:0 10px;
 }
-div.hheader ul.nav li:first-child {
+div.hheader ul.nnav li:first-child {
   margin-left:125px;
 }
-div.hheader ul.nav li a {
+div.hheader ul.nnav li a {
   display:block;
   padding:0 10px;
   font-family: 'Englebert', Verdana, sans-serif;
@@ -323,7 +323,7 @@ $(function(){
 
   // bind events
   $(window).on('resize', centerShelfs);
-  $('.nav a').on('click', moveToShelf);
+  $('.nnav a').on('click', moveToShelf);
 
   // move to start position
   centerShelfs();
@@ -359,7 +359,7 @@ $(function(){
     </section>-->
 
 <div class="hheader">
-    <ul class="nav">
+    <ul class="nnav">
       <li><a href="/" id="view-top-shelf">Shelf 1</a></li>
       <li><a href="/" id="view-middle-shelf">Shelf 2</a></li>
       <li><a href="/" id="view-bottom-shelf">Shelf 3</a></li>
