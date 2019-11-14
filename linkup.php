@@ -26,7 +26,7 @@
             <!-- more content still to come here ... -->
             
             <!-- Add this ... -->
-<?php foreach ($posts as $post): ?>
+<?php foreach ($posts as $post){ ?>
 	<div class="post" style="margin-left: 0px;">
 		<img src="<?php echo BASE_URL . '/static/images/' . $post['image']; ?>" class="post_image" alt="">
 		<?php if (isset($post['topic']['name'])): ?>
@@ -40,6 +40,7 @@
 			</div>
 		</a>
 	</div>
+		<?php } ?>
 
 		</div>
 		<!-- // Page content -->
