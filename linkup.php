@@ -1,4 +1,6 @@
-<?php session_start(); ?>
+<?php if(!session_id()){ 
+    session_start(); 
+}  ?>
 
 <?php require_once 'includes/public_functions.php'; ?>
 <?php require_once 'includes/registration_login.php'; ?>
@@ -24,9 +26,9 @@
 					<!-- more content still to come here ... -->
 					
 					<!-- Add this ... -->
-				<?php foreach ($posts as $post) { ?>
+				<?php foreach ($posts as $post) { $img = $post['image'];?>
 					<div class="post" style="margin-left: 0px;">
-						<img src="<?php echo "static/images/$post['image'];" ?>" class="post_image" alt="">
+						<img src="<?php echo"static/images/$img" ?>" class="post_image" alt="">
 						<?php if (isset($post['topic']['name'])) { ?>
 						<a href="single_post.php?post-slug=<?php echo $post['slug']; ?>">
 							<div class="post_info">
