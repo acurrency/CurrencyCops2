@@ -11,10 +11,13 @@ body {
 body {
   font-size:10px;
 }
-
+div.chris {
+  position: relative;
+  padding-top: 150px;
+  background: #2d2d2d;
+}
 div.header {
-  position: absolute;
-  padding-top: 200px;
+  position: relative;
   top: 0;
   left: 0;
   overflow: hidden;
@@ -346,7 +349,7 @@ $(function(){
                         
                 </div>
     </section>-->
-
+<div class="chris"></div>
 <div class="header">
     <ul class="nav">
       <li><a href="/" id="view-top-shelf">Shelf 1</a></li>
