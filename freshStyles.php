@@ -358,10 +358,8 @@ $(function(){
                         
                 </div>
     </section>-->
-    <section class="banner-area">
-                <div class="container">
-                        
-                </div>
+    <section class="banner-area chris">
+                
 </section>
 <div class="header">
     <ul class="nav">
