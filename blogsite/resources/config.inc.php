@@ -1,7 +1,7 @@
 <?php
 
 $config['db_host']  = 'localhost';
-$config['db_user']  = 'ms7i273jabfw';
+$config['db_user']  = 'cphillips9';
 $config['db_pass']  = 'G3t2work!';
 $config['db_name']  = 'blog';
 
