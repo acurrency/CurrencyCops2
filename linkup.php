@@ -1,6 +1,5 @@
 <!-- The first include should be config.php -->
 <?php require_once 'dbConfig.php'; ?>
-<?php require_once '/includes/head_section.php'; ?>
 <?php require_once ' /includes/public_functions.php'; ?>
 <?php require_once '/includes/registration_login.php'; ?>
 <!-- Retrieve all posts from database  -->
@@ -12,6 +11,7 @@
 	<body>
 		<!-- container - wraps whole page -->
 		<div class="container">
+			<?php include 'header.php' ?>
 			<!-- navbar -->
 			<?php include '/includes/navbar.php'; ?>
 			<!-- // navbar -->
