@@ -115,7 +115,7 @@
             <p>Ride the wave!</p>
         </section>
 
-        <!-- Contact -->
+        <!-- Contact 
         <section class="bg--secondary-color pt3 pb3">
             <div class="container">
                 <div class="mb2 align--center">
@@ -145,7 +145,7 @@
                     </div>
                 </form>
             </div>
-        </section>
+        </section> -->
         
     </main>
 
