@@ -45,7 +45,7 @@ include_once('blogsite/resources/init.php');
 
    		<div class="header-content twelve columns">
 
-		      <h1 id="logo-text"><a href="blogsite/index.php" title="">Blog</a></h1>
+		      <h1 id="logo-text"><a href="index.php" title="">Blog</a></h1>
 				<p id="intro">You want to be at my level? CLIMB BITCH!</p>
 
 			</div>			
@@ -60,8 +60,8 @@ include_once('blogsite/resources/init.php');
 	   	<div class="row">    		            
 
 			   	<ul id="nav" class="nav">
-			      	<li class="current"><a href="blogsite/index.php">Home</a></li>    	
-			      	<li><a href="blogsite/page.html">About</a></li>
+			      	<li class="current"><a href="index.php">Home</a></li>    	
+			      	<li><a href="page.html">About</a></li>
 			   	</ul> <!-- end #nav -->			   	 
 
 	   	</div> 
