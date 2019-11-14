@@ -14,7 +14,7 @@ body {
 
 div.header {
   position: relative;
-  padding-top: 100px;
+  padding-top: 170px;
   top: 0;
   left: 0;
   overflow: hidden;
