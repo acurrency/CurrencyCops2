@@ -360,7 +360,7 @@ $(function(){
     </section>-->
 
 <div class="hheader">
-    <ul class="nav">
+    <ul class="nnav">
       <li><a href="/" id="view-top-shelf">Shelf 1</a></li>
       <li><a href="/" id="view-middle-shelf">Shelf 2</a></li>
       <li><a href="/" id="view-bottom-shelf">Shelf 3</a></li>
