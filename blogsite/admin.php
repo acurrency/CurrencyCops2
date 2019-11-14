@@ -1,5 +1,5 @@
 <?php
-include_once('blogsite/resources/init.php');
+include_once('resources/init.php');
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
@@ -27,7 +27,7 @@ include_once('blogsite/resources/init.php');
 
    <!-- Script
    ================================================== -->
-	<script src="blogsite/js/modernizr.js"></script>
+	<script src="js/modernizr.js"></script>
 
    <!-- Favicons
 	================================================== -->
@@ -87,10 +87,10 @@ include_once('blogsite/resources/init.php');
 					
 						<div class="entry-meta">
 
-        <button type='button' value='Add Category' /><a href="blogsite/add_category.php">Add Category</a></button>
-		<button type='button' value='Add Category' /><a href="blogsite/add_post.php">Add Post</a></button>
-		<button type='button' value='Add Category' /><a href="blogsite/category_list.php">Delete Categories</a></button>
-		<button type='button' value='Add Category' /><a href="blogsite/manage_post.php">Manage Post</a></button>
+        <button type='button' value='Add Category'><a href="blogsite/add_category.php">Add Category</a></button>
+		<button type='button' value='Add Category'><a href="blogsite/add_post.php">Add Post</a></button>
+		<button type='button' value='Add Category'><a href="blogsite/category_list.php">Delete Categories</a></button>
+		<button type='button' value='Add Category'><a href="blogsite/manage_post.php">Manage Post</a></button>
 	
 		
 						</div> 
