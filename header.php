@@ -17,7 +17,7 @@
                             <ul class="nav navbar-nav menu_nav ml-auto">
                                 <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
                                 <li class="nav-item"><a class="nav-link" href="category.php">Shop Inventory</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blogsite/index.php">Link-Up</a></li>
+                                <li class="nav-item"><a class="nav-link" href="http://www.currencycops.com/link/">Link-Up</a></li>
                                 <li class="nav-item"><a class="nav-link" href="freshStyles.php">Fresh Styles</a></li>
                                 <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
                                 <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
