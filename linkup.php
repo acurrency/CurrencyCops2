@@ -1,4 +1,5 @@
 <?php
+require_once 'config.php';
 require_once '/includes/public_functions.php';
 require_once '/includes/registration_login.php';
 
@@ -14,7 +15,7 @@ $posts = getPublishedPosts();
 		<div class="container">
 			<?php include 'header.php'; ?>
 			<!-- navbar -->
-			<?php include_once '/includes/navbar.php'; ?>
+			<?php include '/includes/navbar.php'; ?>
 			<!-- // navbar -->
 
 			<!-- banner -->
@@ -49,7 +50,7 @@ $posts = getPublishedPosts();
 			<!-- // Page content -->
 
 			<!-- footer -->
-		<?php include_once '/includes/footer.php'; ?>
+		<?php include '/includes/footer.php'; ?>
 			<!-- // footer -->
 	</body>
 </html>
