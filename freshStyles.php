@@ -28,7 +28,7 @@
 <div class="chris"></div>
 <div class="header">
     <ul class="nav">
-      <li><a href="" id="view-top-shelf">Shelf 1</a></li>
+      <li><a id="view-top-shelf">Shelf 1</a></li>
       <li><a href="" id="view-middle-shelf">Shelf 2</a></li>
       <li><a href="" id="view-bottom-shelf">Shelf 3</a></li>
     </ul>
