@@ -11,11 +11,11 @@ $posts = getPublishedPosts();
 		<!-- container - wraps whole page -->
 		<div class="container">
 			<!-- navbar -->
-			<?php include 'includes/navbar.php'; ?>
+			<?php include('includes/navbar.php'); ?>
 			<!-- // navbar -->
 
 			<!-- banner -->
-			<?php include 'includes/banner.php'; ?>
+			<?php include('includes/banner.php'); ?>
 			<!-- // banner -->
 
 			<!-- Page content -->
