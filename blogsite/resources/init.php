@@ -4,13 +4,11 @@
 error_reporting(0); //handles error to accept deprecated mysql extension
 
 
-include_once('blogsite/resources/config.inc.php');
+include_once 'blogsite/resources/config.inc.php';
 
 mysql_connect(DB_HOST,DB_USER,DB_PASS);
 mysql_select_db(DB_NAME);
 
-include_once('blogsite/resources/functions/blog.php');
-
-
+include_once 'blogsite/resources/functions/blog.php';
 
 ?>
