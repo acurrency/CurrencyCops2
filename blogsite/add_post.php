@@ -1,5 +1,5 @@
 <?php
-include_once('resources/init.php');
+include_once('blogsite/resources/init.php');
 
 if(isset($_POST['title'],$_POST['contents'],$_POST['category'])){
     

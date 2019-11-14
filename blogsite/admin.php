@@ -1,5 +1,5 @@
 <?php
-include_once('resources/init.php');
+include_once('blogsite/resources/init.php');
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
@@ -162,9 +162,9 @@ include_once('resources/init.php');
    <!-- Java Script
    ================================================== -->
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>  
-   <script src="js/main.js"></script>
+   <script>window.jQuery || document.write('<script src="blogsite/js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="blogsite/js/jquery-migrate-1.2.1.min.js"></script>  
+   <script src="blogsite/js/main.js"></script>
 
 </body>
 
