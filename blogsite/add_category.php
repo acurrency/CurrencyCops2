@@ -14,7 +14,7 @@ if(isset($_POST['name'])){
 
     if(!isset($error)){
         add_category($name);
-        header("Location:blogsite/add_category.php");
+        header("Location:add_category.php");
         die();
     }
 }
@@ -40,17 +40,17 @@ if(isset($_POST['name'])){
 
    <!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="blogsite/css/default.css">
-	<link rel="stylesheet" href="blogsite/css/layout.css">  
-	<link rel="stylesheet" href="blogsite/css/media-queries.css"> 
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">  
+	<link rel="stylesheet" href="css/media-queries.css"> 
 
    <!-- Script
    ================================================== -->
-	<script src="blogsite/js/modernizr.js"></script>
+	<script src="js/modernizr.js"></script>
 
    <!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="blogsite/favicon.png" >
+	<link rel="shortcut icon" href="favicon.png" >
 
 </head>
 
