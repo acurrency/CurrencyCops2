@@ -1,5 +1,4 @@
 <?php
-require_once 'dbConfig.php';
 require_once '/includes/public_functions.php';
 require_once '/includes/registration_login.php';
 
