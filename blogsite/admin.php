@@ -1,5 +1,5 @@
 <?php
-include_once('blogsite/resources/init.php');
+include_once('resources/init.php');
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
