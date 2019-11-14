@@ -6,11 +6,11 @@ require_once 'dbConfig.php';
 * * * * * * * * * * * * * * */
 function getPublishedPosts() {
 	// use global $conn object in function
-	global $conn;
+	//global $conn;
 	$result = $db->query("SELECT * FROM posts WHERE published=true");
 	//$result = mysqli_query($db, $sql);
 	// fetch all posts as an associative array called $posts
-	$posts = mysqli_fetch_all($result, MYSQLI_ASSOC);
+	$posts = $result->mysqli_fetch_all();
 
 	$final_posts = array();
 	foreach ($posts as $post) {
