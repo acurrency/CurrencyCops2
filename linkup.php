@@ -1,8 +1,8 @@
 <!-- The first include should be config.php -->
 <?php require_once 'dbConfig.php'; ?>
-<?php require_once('/includes/head_section.php') ?>
-<?php require_once('/includes/public_functions.php') ?>
-<?php require_once('/includes/registration_login.php') ?>
+<?php require_once('/includes/head_section.php'); ?>
+<?php require_once('/includes/public_functions.php'); ?>
+<?php require_once('/includes/registration_login.php'); ?>
 <!-- Retrieve all posts from database  -->
 <?php $posts = getPublishedPosts(); ?>
 <title>Link-Up CurrencyCops</title>
@@ -11,11 +11,11 @@
 	<!-- container - wraps whole page -->
 	<div class="container">
 		<!-- navbar -->
-		<?php include('/includes/navbar.php') ?>
+		<?php include('/includes/navbar.php'); ?>
 		<!-- // navbar -->
 
 		<!-- banner -->
-		<?php include('/includes/banner.php') ?>
+		<?php include('/includes/banner.php'); ?>
 		<!-- // banner -->
 
 		<!-- Page content -->
@@ -31,7 +31,7 @@
 					<?php if (isset($post['topic']['name'])) { ?>
 					<a href="single_post.php?post-slug=<?php echo $post['slug']; ?>">
 						<div class="post_info">
-							<h3><?php echo $post['title'] ?></h3>
+							<h3><?php echo $post['title']; ?></h3>
 							<div class="info">
 								<span><?php echo date("F j, Y ", strtotime($post["created_at"])); ?></span>
 								<span class="read_more">Read more...</span>
@@ -48,5 +48,5 @@
 		<!-- // Page content -->
 
 		<!-- footer -->
-		<?php include('/includes/footer.php') ?>
+		<?php include('/includes/footer.php'); ?>
 		<!-- // footer -->
