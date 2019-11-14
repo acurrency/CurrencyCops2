@@ -11,11 +11,11 @@ $posts = getPublishedPosts();
 		<!-- container - wraps whole page -->
 		<div class="container">
 			<!-- navbar -->
-			<?php include '/includes/navbar.php'; ?>
+			<?php include 'includes/navbar.php'; ?>
 			<!-- // navbar -->
 
 			<!-- banner -->
-			<?php include '/includes/banner.php'; ?>
+			<?php include 'includes/banner.php'; ?>
 			<!-- // banner -->
 
 			<!-- Page content -->
@@ -26,7 +26,7 @@ $posts = getPublishedPosts();
 					<!-- Add this ... -->
 				<?php foreach ($posts as $post) { ?>
 					<div class="post" style="margin-left: 0px;">
-						<img src="<?php echo BASE_URL . '/static/images/' . $post['image']; ?>" class="post_image" alt="">
+						<img src="<?php echo BASE_URL . 'static/images/' . $post['image']; ?>" class="post_image" alt="">
 						<?php if (isset($post['topic']['name'])) { ?>
 						<a href="single_post.php?post-slug=<?php echo $post['slug']; ?>">
 							<div class="post_info">
@@ -46,5 +46,5 @@ $posts = getPublishedPosts();
 			<!-- // Page content -->
 
 			<!-- footer -->
-		<?php include '/includes/footer.php'; ?>
+		<?php include 'includes/footer.php'; ?>
 			<!-- // footer -->
