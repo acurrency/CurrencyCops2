@@ -13,7 +13,7 @@ $posts = getPublishedPosts();
 	<body>
 		<!-- container - wraps whole page -->
 		<div class="container">
-			<?php include 'header.php' ?>
+			<?php include 'header.php'; ?>
 			<!-- navbar -->
 			<?php include_once '/includes/navbar.php'; ?>
 			<!-- // navbar -->
