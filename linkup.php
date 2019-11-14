@@ -1,19 +1,15 @@
+<?php  include('config.php'); ?>
+<?php  include('includes/registration_login.php'); ?>
+<?php  include('includes/head_section.php'); ?>
 <?php
-require_once 'config.php';
-require_once '/includes/public_functions.php';
-require_once '/includes/registration_login.php';
-
 $posts = getPublishedPosts();
-
 ?>
-<html>
-	<head>
-		<title>Link-Up CurrencyCops</title>
+
+	<title>Link-Up CurrencyCops</title>
 	</head>
 	<body>
 		<!-- container - wraps whole page -->
 		<div class="container">
-			<?php include 'header.php'; ?>
 			<!-- navbar -->
 			<?php include '/includes/navbar.php'; ?>
 			<!-- // navbar -->
@@ -45,12 +41,10 @@ $posts = getPublishedPosts();
 					</div>
 				<?php } ?>
 			</div>
-		</div>
+		
 		<!--</div> -->
 			<!-- // Page content -->
 
 			<!-- footer -->
 		<?php include '/includes/footer.php'; ?>
 			<!-- // footer -->
-	</body>
-</html>
