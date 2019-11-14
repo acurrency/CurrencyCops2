@@ -352,11 +352,12 @@ $(function(){
 
 <body id="category">
 
-<section class="banner-area organic-breadcrumb">
+<!--<section class="banner-area organic-breadcrumb">
                 <div class="container">
                         
                 </div>
-    </section>
+    </section>-->
+<?php include 'header.php';?>
 
 <div class="header">
     <ul class="nav">
