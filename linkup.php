@@ -23,7 +23,6 @@
 			<!-- Page content -->
 			<div class="content">
 					<h2 class="content-title">Recent Articles</h2>
-					<hr>
 					<!-- more content still to come here ... -->
 					
 					<!-- Add this ... -->
