@@ -25,7 +25,7 @@ body {
   font-size:10px;
 }
 
-div.header {
+div.hheader {
   position: absolute;
   top: 0;
   left: 0;
@@ -37,17 +37,17 @@ div.header {
   box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
-div.header ul.nav {
+div.hheader ul.nav {
   overflow:hidden;
 }
-div.header ul.nav li {
+div.hheader ul.nav li {
   float:left;
   margin:0 10px;
 }
-div.header ul.nav li:first-child {
+div.hheader ul.nav li:first-child {
   margin-left:125px;
 }
-div.header ul.nav li a {
+div.hheader ul.nav li a {
   display:block;
   padding:0 10px;
   font-family: 'Englebert', Verdana, sans-serif;
@@ -358,7 +358,7 @@ $(function(){
                 </div>
     </section>-->
 
-<div class="header">
+<div class="hheader">
     <ul class="nav">
       <li><a href="/" id="view-top-shelf">Shelf 1</a></li>
       <li><a href="/" id="view-middle-shelf">Shelf 2</a></li>
