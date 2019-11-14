@@ -1,5 +1,5 @@
 <?php
-include_once('resources/init.php');
+include_once('blogsite/resources/init.php');
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
@@ -27,7 +27,7 @@ include_once('resources/init.php');
 
    <!-- Script
    ================================================== -->
-	<script src="js/modernizr.js"></script>
+	<script src="blogsite/js/modernizr.js"></script>
 
    <!-- Favicons
 	================================================== -->
@@ -45,7 +45,7 @@ include_once('resources/init.php');
 
    		<div class="header-content twelve columns">
 
-		      <h1 id="logo-text"><a href="index.php" title="">Blog</a></h1>
+		      <h1 id="logo-text"><a href="blogsite/index.php" title="">Blog</a></h1>
 				<p id="intro">You want to be at my level? CLIMB BITCH!</p>
 
 			</div>			
@@ -60,8 +60,8 @@ include_once('resources/init.php');
 	   	<div class="row">    		            
 
 			   	<ul id="nav" class="nav">
-			      	<li class="current"><a href="index.php">Home</a></li>    	
-			      	<li><a href="page.html">About</a></li>
+			      	<li class="current"><a href="blogsite/index.php">Home</a></li>    	
+			      	<li><a href="blogsite/page.html">About</a></li>
 			   	</ul> <!-- end #nav -->			   	 
 
 	   	</div> 
@@ -87,10 +87,10 @@ include_once('resources/init.php');
 					
 						<div class="entry-meta">
 
-        <button type='button' value='Add Category' /><a href="add_category.php">Add Category</a></button>
-		<button type='button' value='Add Category' /><a href="add_post.php">Add Post</a></button>
-		<button type='button' value='Add Category' /><a href="category_list.php">Delete Categories</a></button>
-		<button type='button' value='Add Category' /><a href="manage_post.php">Manage Post</a></button>
+        <button type='button' value='Add Category' /><a href="blogsite/add_category.php">Add Category</a></button>
+		<button type='button' value='Add Category' /><a href="blogsite/add_post.php">Add Post</a></button>
+		<button type='button' value='Add Category' /><a href="blogsite/category_list.php">Delete Categories</a></button>
+		<button type='button' value='Add Category' /><a href="blogsite/manage_post.php">Manage Post</a></button>
 	
 		
 						</div> 
@@ -124,7 +124,7 @@ include_once('resources/init.php');
    				<?php
      foreach(get_categories() as $category){
      ?>
-      <p><a href="manage_category.php?id=<?php echo $category['id'];?>"><?php echo $category['name']; ?></a>
+      <p><a href="blogsite/manage_category.php?id=<?php echo $category['id'];?>"><?php echo $category['name']; ?></a>
      <?php  
      }
      ?>
@@ -162,9 +162,9 @@ include_once('resources/init.php');
    <!-- Java Script
    ================================================== -->
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>  
-   <script src="js/main.js"></script>
+   <script>window.jQuery || document.write('<script src="blogsite/js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="blogsite/js/jquery-migrate-1.2.1.min.js"></script>  
+   <script src="blogsite/js/main.js"></script>
 
 </body>
 

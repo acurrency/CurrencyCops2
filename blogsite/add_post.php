@@ -1,5 +1,5 @@
 <?php
-include_once('resources/init.php');
+include_once('blogsite/resources/init.php');
 
 if(isset($_POST['title'],$_POST['contents'],$_POST['category'])){
     
@@ -27,7 +27,7 @@ if(isset($_POST['title'],$_POST['contents'],$_POST['category'])){
         
         $id = mysql_insert_id();
         
-        header("Location:index.php?id={$id}");
+        header("Location:blogsite/index.php?id={$id}");
         die();
     }
 }
@@ -52,17 +52,17 @@ if(isset($_POST['title'],$_POST['contents'],$_POST['category'])){
 
    <!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">  
-	<link rel="stylesheet" href="css/media-queries.css"> 
+   <link rel="stylesheet" href="blogsite/css/default.css">
+	<link rel="stylesheet" href="blogsite/css/layout.css">  
+	<link rel="stylesheet" href="blogsite/css/media-queries.css"> 
 
    <!-- Script
    ================================================== -->
-	<script src="js/modernizr.js"></script>
+	<script src="blogsite/js/modernizr.js"></script>
 
    <!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
+	<link rel="shortcut icon" href="blogsite/favicon.png" >
 
 </head>
 
@@ -76,7 +76,7 @@ if(isset($_POST['title'],$_POST['contents'],$_POST['category'])){
 
    		<div class="header-content twelve columns">
 
-		      <h1 id="logo-text"><a href="index.php" title="">Blog</a></h1>
+		      <h1 id="logo-text"><a href="blogsite/index.php" title="">Blog</a></h1>
 				<p id="intro">You want to be at my level? CLIMB BITCH!</p>
 
 			</div>			
@@ -91,8 +91,8 @@ if(isset($_POST['title'],$_POST['contents'],$_POST['category'])){
 	   	<div class="row">    		            
 
 			   	<ul id="nav" class="nav">
-			      	<li class="current"><a href="index.php">Home</a></li>    	
-			      	<li><a href="page.html">About</a></li>
+			      	<li class="current"><a href="blogsite/index.php">Home</a></li>    	
+			      	<li><a href="blogsite/page.html">About</a></li>
 			   	</ul> <!-- end #nav -->			   	 
 
 	   	</div> 
@@ -175,7 +175,7 @@ if(isset($_POST['title'],$_POST['contents'],$_POST['category'])){
    				<?php
      foreach(get_categories() as $category){
      ?>
-      <p><a href="manage_category.php?id=<?php echo $category['id'];?>"><?php echo $category['name']; ?></a>
+      <p><a href="blogsite/manage_category.php?id=<?php echo $category['id'];?>"><?php echo $category['name']; ?></a>
      <?php  
      }
      ?>
@@ -213,9 +213,9 @@ if(isset($_POST['title'],$_POST['contents'],$_POST['category'])){
    <!-- Java Script
    ================================================== -->
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>  
-   <script src="js/main.js"></script>
+   <script>window.jQuery || document.write('<script src="blogsite/js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="blogsite/js/jquery-migrate-1.2.1.min.js"></script>  
+   <script src="blogsite/js/main.js"></script>
 
 </body>
 
