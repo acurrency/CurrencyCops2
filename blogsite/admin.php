@@ -27,7 +27,7 @@ include_once('blogsite/resources/init.php');
 
    <!-- Script
    ================================================== -->
-	<script src="blogsite/js/modernizr.js"></script>
+	<script src="js/modernizr.js"></script>
 
    <!-- Favicons
 	================================================== -->
@@ -124,7 +124,7 @@ include_once('blogsite/resources/init.php');
    				<?php
      foreach(get_categories() as $category){
      ?>
-      <p><a href="blogsite/manage_category.php?id=<?php echo $category['id'];?>"><?php echo $category['name']; ?></a>
+      <p><a href="manage_category.php?id=<?php echo $category['id'];?>"><?php echo $category['name']; ?></a>
      <?php  
      }
      ?>
