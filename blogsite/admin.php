@@ -87,10 +87,10 @@ include_once('resources/init.php');
 					
 						<div class="entry-meta">
 
-        <button type='button' value='Add Category'><a href="blogsite/add_category.php">Add Category</a></button>
-		<button type='button' value='Add Category'><a href="blogsite/add_post.php">Add Post</a></button>
-		<button type='button' value='Add Category'><a href="blogsite/category_list.php">Delete Categories</a></button>
-		<button type='button' value='Add Category'><a href="blogsite/manage_post.php">Manage Post</a></button>
+        <button type='button' value='Add Category' /><a href="blogsite/add_category.php">Add Category</a></button>
+		<button type='button' value='Add Category' /><a href="blogsite/add_post.php">Add Post</a></button>
+		<button type='button' value='Add Category' /><a href="blogsite/category_list.php">Delete Categories</a></button>
+		<button type='button' value='Add Category' /><a href="blogsite/manage_post.php">Manage Post</a></button>
 	
 		
 						</div> 
