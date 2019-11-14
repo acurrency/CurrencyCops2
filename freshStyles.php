@@ -2,19 +2,6 @@
 <html lang="zxx" class="no-js">
 
 <head>
-        <!-- Mobile Specific Meta -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Favicon-->
-        <link rel="shortcut icon" href="img/fav.png">
-        <!-- Author Meta -->
-        <meta name="author" content="CodePixar">
-        <!-- Meta Description -->
-        <meta name="description" content="">
-        <!-- Meta Keyword -->
-        <meta name="keywords" content="">
-        <!-- meta character set -->
-        <meta charset="UTF-8">
-        <!-- Site Title -->
         <title>LinkUp</title>
         <style>
             html,
@@ -27,6 +14,7 @@ body {
 
 div.header {
   position: relative;
+  padding-top: 100px;
   top: 0;
   left: 0;
   overflow: hidden;
@@ -358,11 +346,7 @@ $(function(){
                         
                 </div>
     </section>-->
-    <section class="chris">
-                <div class="container">
-                        
-                </div>
-</section>
+
 <div class="header">
     <ul class="nav">
       <li><a href="/" id="view-top-shelf">Shelf 1</a></li>
