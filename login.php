@@ -1,4 +1,4 @@
-<?php  include('config.php'); ?>
+<?php  include('dbConfig.php'); ?>
 <?php  include('includes/registration_login.php'); ?>
 <?php  include('includes/head_section.php'); ?>
 	<title>LifeBlog | Sign in </title>

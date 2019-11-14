@@ -1,4 +1,4 @@
-<?php  include('config.php'); ?>
+<?php  include('dbConfig.php');?>
 <!-- Source code for handling registration and login -->
 <?php  include('includes/registration_login.php'); ?>
 
