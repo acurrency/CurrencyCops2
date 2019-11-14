@@ -1,8 +1,8 @@
 <!-- The first include should be config.php -->
 <?php require_once 'dbConfig.php'; ?>
-<?php require_once( ROOT_PATH . '/includes/head_section.php') ?>
-<?php require_once( ROOT_PATH . '/includes/public_functions.php') ?>
-<?php require_once( ROOT_PATH . '/includes/registration_login.php') ?>
+<?php require_once('/includes/head_section.php') ?>
+<?php require_once('/includes/public_functions.php') ?>
+<?php require_once('/includes/registration_login.php') ?>
 <!-- Retrieve all posts from database  -->
 <?php $posts = getPublishedPosts(); ?>
 <title>Link-Up CurrencyCops</title>
@@ -11,11 +11,11 @@
 	<!-- container - wraps whole page -->
 	<div class="container">
 		<!-- navbar -->
-		<?php include( ROOT_PATH . '/includes/navbar.php') ?>
+		<?php include('/includes/navbar.php') ?>
 		<!-- // navbar -->
 
 		<!-- banner -->
-		<?php include( ROOT_PATH . '/includes/banner.php') ?>
+		<?php include('/includes/banner.php') ?>
 		<!-- // banner -->
 
 		<!-- Page content -->
@@ -48,5 +48,5 @@
 		<!-- // Page content -->
 
 		<!-- footer -->
-		<?php include( ROOT_PATH . '/includes/footer.php') ?>
+		<?php include('/includes/footer.php') ?>
 		<!-- // footer -->
