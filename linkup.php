@@ -5,6 +5,7 @@
 <?php require_once('/includes/registration_login.php'); ?>
 <!-- Retrieve all posts from database  -->
 <?php $posts = getPublishedPosts(); ?>
+<head>
 <title>Link-Up CurrencyCops</title>
 </head>
 <body>
@@ -50,3 +51,4 @@
 		<!-- footer -->
 		<?php include('/includes/footer.php'); ?>
 		<!-- // footer -->
+</body>
