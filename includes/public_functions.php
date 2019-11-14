@@ -10,7 +10,7 @@ function getPublishedPosts() {
 	$result = $db->query("SELECT * FROM posts WHERE published=true");
 	//$result = mysqli_query($db, $sql);
 	// fetch all posts as an associative array called $posts
-	$posts = $result->mysqli_fetch_all();
+	$posts = $result->fetch_assoc();
 
 	$final_posts = array();
 	foreach ($posts as $post) {
@@ -24,11 +24,11 @@ function getPublishedPosts() {
 * Returns topic of the post
 * * * * * * * * * * * * * * */
 function getPostTopic($post_id){
-	global $conn;
-	$sql = "SELECT * FROM topics WHERE id=
-			(SELECT topic_id FROM post_topic WHERE post_id=$post_id) LIMIT 1";
-	$result = mysqli_query($db, $sql);
-	$topic = mysqli_fetch_assoc($result);
+	//global $conn;
+	$result = $db->query("SELECT * FROM topics WHERE id=
+			(SELECT topic_id FROM post_topic WHERE post_id=$post_id) LIMIT 1");
+	//$result = mysqli_query($db, $sql);
+	$topic = $result->fetch_assoc();
 	return $topic;
 }
 
