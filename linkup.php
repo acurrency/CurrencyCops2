@@ -1,9 +1,11 @@
-<!-- The first include should be config.php -->
-<?php require_once 'dbConfig.php'; ?>
-<?php require_once '/includes/public_functions.php'; ?>
-<?php require_once '/includes/registration_login.php'; ?>
-<!-- Retrieve all posts from database  -->
-<?php $posts = getPublishedPosts(); ?>
+<?php
+require_once 'dbConfig.php';
+require_once '/includes/public_functions.php';
+require_once '/includes/registration_login.php';
+
+$posts = getPublishedPosts();
+
+?>
 <html>
 	<head>
 		<title>Link-Up CurrencyCops</title>
@@ -11,7 +13,7 @@
 	<body>
 		<!-- container - wraps whole page -->
 		<div class="container">
-			<?php include_once 'header.php' ?>
+			<?php include 'header.php' ?>
 			<!-- navbar -->
 			<?php include_once '/includes/navbar.php'; ?>
 			<!-- // navbar -->
