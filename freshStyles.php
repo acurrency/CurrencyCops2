@@ -344,11 +344,6 @@ $(function(){
 
 <body>
 <?php include 'header.php';?>
-<!--<section class="banner-area organic-breadcrumb">
-                <div class="container">
-                        
-                </div>
-    </section>-->
 <div class="chris"></div>
 <div class="header">
     <ul class="nav">
