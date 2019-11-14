@@ -1,5 +1,5 @@
 <?php
-include_once 'blogsite/resources/init.php';
+include 'blogsite/resources/init.php';
 //$posts = (isset($_GET['id'])) ? get_posts($_GET['id']) : get_posts();
 $posts = get_posts((isset($_GET['id']))? $_GET['id'] : null); 
 ?>
