@@ -47,7 +47,7 @@ $posts = get_posts((isset($_GET['id']))? $_GET['id'] : null);
 
    		<div class="header-content twelve columns">
 
-		      <h1 id="logo-text"><a href="index.php" title="">Blog</a></h1>
+		      <h1 id="logo-text"><a href="blog.php" title="">Blog</a></h1>
 				<p id="intro">You want to be at my level? CLIMB BITCH!</p>
 
 			</div>			
@@ -62,7 +62,7 @@ $posts = get_posts((isset($_GET['id']))? $_GET['id'] : null);
 	   	<div class="row">    		            
 
 			   	<ul id="nav" class="nav">
-			      	<li class="current"><a href="index.php">Home</a></li>
+			      	<li class="current"><a href="blog.php">Home</a></li>
 			      	<!--<li class="has-children"><a href="#">Dropdown</a>
 	                  <ul>
 	                     <li><a href="#">Submenu 01</a></li>
