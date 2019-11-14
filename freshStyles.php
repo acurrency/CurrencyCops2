@@ -340,13 +340,7 @@ $(function(){
         <!--
             CSS
             ============================================= -->
-        <link rel="stylesheet" href="css/linearicons.css">
-        <link rel="stylesheet" href="css/owl.carousel.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/themify-icons.css">
-        <link rel="stylesheet" href="css/nice-select.css">
-        <link rel="stylesheet" href="css/nouislider.min.css">
-        <link rel="stylesheet" href="css/bootstrap.css">
+        
         <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -358,7 +352,11 @@ $(function(){
                         
                 </div>
     </section>-->
-
+    <section class="banner-area organic-breadcrumb">
+                <div class="container">
+                        
+                </div>
+</section>
 <div class="header">
     <ul class="nav">
       <li><a href="/" id="view-top-shelf">Shelf 1</a></li>
