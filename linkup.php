@@ -1,9 +1,8 @@
 <?php  include('config.php'); ?>
-<?php  include('includes/registration_login.php'); ?>
-<?php  include('includes/head_section.php'); ?>
-<?php
-$posts = getPublishedPosts();
-?>
+<?php require_once( ROOT_PATH . '/includes/head_section.php') ?>
+<?php require_once( ROOT_PATH . '/includes/public_functions.php') ?>
+<?php require_once( ROOT_PATH . '/includes/registration_login.php') ?>
+<?php $posts = getPublishedPosts(); ?>
 
 	<title>Link-Up CurrencyCops</title>
 	</head>
@@ -11,11 +10,11 @@ $posts = getPublishedPosts();
 		<!-- container - wraps whole page -->
 		<div class="container">
 			<!-- navbar -->
-			<?php include('includes/navbar.php'); ?>
+			<?php include( ROOT_PATH . '/includes/navbar.php') ?>
 			<!-- // navbar -->
 
 			<!-- banner -->
-			<?php include('includes/banner.php'); ?>
+			<?php include( ROOT_PATH . '/includes/banner.php') ?>
 			<!-- // banner -->
 
 			<!-- Page content -->
@@ -46,5 +45,5 @@ $posts = getPublishedPosts();
 			<!-- // Page content -->
 
 			<!-- footer -->
-		<?php include 'includes/footer.php'; ?>
+			<?php include( ROOT_PATH . '/includes/footer.php') ?
 			<!-- // footer -->
