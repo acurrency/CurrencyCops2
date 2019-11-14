@@ -1,6 +1,6 @@
 <!-- The first include should be config.php -->
 <?php require_once 'dbConfig.php'; ?>
-<?php require_once ' /includes/public_functions.php'; ?>
+<?php require_once '/includes/public_functions.php'; ?>
 <?php require_once '/includes/registration_login.php'; ?>
 <!-- Retrieve all posts from database  -->
 <?php $posts = getPublishedPosts(); ?>
