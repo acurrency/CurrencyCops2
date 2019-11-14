@@ -11,9 +11,9 @@
 	<body>
 		<!-- container - wraps whole page -->
 		<div class="container">
-			<?php include 'header.php' ?>
+			<?php include_once 'header.php' ?>
 			<!-- navbar -->
-			<?php include '/includes/navbar.php'; ?>
+			<?php include_once '/includes/navbar.php'; ?>
 			<!-- // navbar -->
 
 			<!-- banner -->
@@ -48,7 +48,7 @@
 			<!-- // Page content -->
 
 			<!-- footer -->
-		<?php include '/includes/footer.php'; ?>
+		<?php include_once '/includes/footer.php'; ?>
 			<!-- // footer -->
 	</body>
 </html>
