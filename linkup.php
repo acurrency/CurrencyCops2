@@ -40,7 +40,6 @@
 			</div>
 		</a>
 	</div>
-<?php endforeach ?>
 
 		</div>
 		<!-- // Page content -->
