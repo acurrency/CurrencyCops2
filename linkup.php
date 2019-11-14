@@ -5,7 +5,6 @@
 <?php require_once( ROOT_PATH . '/includes/registration_login.php') ?>
 <!-- Retrieve all posts from database  -->
 <?php $posts = getPublishedPosts(); ?>
-<!DOCTYPE html>
 <title>Link-Up CurrencyCops</title>
 </head>
 <body>
@@ -21,31 +20,33 @@
 
 		<!-- Page content -->
 		<div class="content">
-			<h2 class="content-title">Recent Articles</h2>
-			<hr>
-            <!-- more content still to come here ... -->
-            
-            <!-- Add this ... -->
-<?php foreach ($posts as $post){ ?>
-	<div class="post" style="margin-left: 0px;">
-		<img src="<?php echo BASE_URL . '/static/images/' . $post['image']; ?>" class="post_image" alt="">
-		<?php if (isset($post['topic']['name'])): ?>
-		<a href="single_post.php?post-slug=<?php echo $post['slug']; ?>">
-			<div class="post_info">
-				<h3><?php echo $post['title'] ?></h3>
-				<div class="info">
-					<span><?php echo date("F j, Y ", strtotime($post["created_at"])); ?></span>
-					<span class="read_more">Read more...</span>
+				<h2 class="content-title">Recent Articles</h2>
+				<hr>
+				<!-- more content still to come here ... -->
+				
+				<!-- Add this ... -->
+			<?php foreach ($posts as $post) { ?>
+				<div class="post" style="margin-left: 0px;">
+					<img src="<?php echo BASE_URL . '/static/images/' . $post['image']; ?>" class="post_image" alt="">
+					<?php if (isset($post['topic']['name'])) { ?>
+					<a href="single_post.php?post-slug=<?php echo $post['slug']; ?>">
+						<div class="post_info">
+							<h3><?php echo $post['title'] ?></h3>
+							<div class="info">
+								<span><?php echo date("F j, Y ", strtotime($post["created_at"])); ?></span>
+								<span class="read_more">Read more...</span>
+							</div>
+						</div>
+					</a>
+					<?php } ?>
 				</div>
-			</div>
-		</a>
-	</div>
-		<?php } ?>
-
+			<?php } ?>
 		</div>
+	</div>
+
+		<!--</div> -->
 		<!-- // Page content -->
 
 		<!-- footer -->
 		<?php include( ROOT_PATH . '/includes/footer.php') ?>
 		<!-- // footer -->
-
