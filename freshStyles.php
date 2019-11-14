@@ -323,7 +323,7 @@ $(function(){
 
   // bind events
   $(window).on('resize', centerShelfs);
-  $('.nnav a').on('click', moveToShelf);
+  $('.nav a').on('click', moveToShelf);
 
   // move to start position
   centerShelfs();
@@ -349,6 +349,7 @@ $(function(){
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/main.css">
 </head>
+<?php include 'header.php';?>
 
 <body id="category">
 
@@ -359,7 +360,7 @@ $(function(){
     </section>-->
 
 <div class="hheader">
-    <ul class="nnav">
+    <ul class="nav">
       <li><a href="/" id="view-top-shelf">Shelf 1</a></li>
       <li><a href="/" id="view-middle-shelf">Shelf 2</a></li>
       <li><a href="/" id="view-bottom-shelf">Shelf 3</a></li>
@@ -476,6 +477,7 @@ $(function(){
 
 
 
+ <?php include 'footer.php';?>
 
 <script src="js/vendor/jquery-2.2.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
