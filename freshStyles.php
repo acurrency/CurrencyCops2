@@ -358,7 +358,7 @@ $(function(){
                         
                 </div>
     </section>-->
-    <section class="banner-area chris">
+    <section class="chris">
                 <div class="container">
                         
                 </div>
