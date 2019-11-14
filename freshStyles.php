@@ -349,10 +349,10 @@ $(function(){
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/main.css">
 </head>
-<?php include 'header.php';?>
+
 
 <body id="category">
-
+<?php include 'header.php';?>
 <!--<section class="banner-area organic-breadcrumb">
                 <div class="container">
                         
