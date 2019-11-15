@@ -50,7 +50,7 @@
                 <img src="img/style2.jpeg" alt="">
               </a>
               <a href="#" class="photocard">
-                <img src="img/style3.jpeg" alt="">
+                <img src="img/style3.jpg" alt="">
               </a>
 
             </div>
