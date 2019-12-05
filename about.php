@@ -87,7 +87,7 @@
                 </div>
                 <div class="grid-column span-half pt3 pb3 mobile-m order-5">
                     <div class="relative">
-                        <img class="info-image relative z2" src="img/founder.jpg" alt="Founder">
+                        <img class="info-image relative z2" src="img/founder.jpg">
                         <div class="pattern pattern--left-up absolute z1"></div>
                     </div>
                 </div>
