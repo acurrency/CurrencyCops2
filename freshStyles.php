@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Gallert | CurrencyCops</title>
+  <title>Gallery | CurrencyCops</title>
 
 
 
