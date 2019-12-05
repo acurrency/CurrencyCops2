@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>CC - Fresh Styles</title>
+  <title>Gallert | CurrencyCops</title>
 
 
 
@@ -44,13 +44,13 @@
             <div class="face front">
 
               <a href="#" data-img-url="../photos/1.jpg" class="photocard">
-                <img src="https://raw.github.com/peterwestendorp/shelves/master/photos/1.jpg" alt="">
+                <img src="img/style1.jpeg" alt="">
               </a>
               <a href="#" class="photocard">
-                <img src="https://raw.github.com/peterwestendorp/shelves/master/photos/2.jpg" alt="">
+                <img src="img/style2.jpeg" alt="">
               </a>
               <a href="#" class="photocard">
-                <img src="https://raw.github.com/peterwestendorp/shelves/master/photos/3.jpg" alt="">
+                <img src="img/style3.jpg" alt="">
               </a>
 
             </div>
@@ -66,13 +66,13 @@
             <div class="face front">
 
               <a href="#" data-img-url="../photos/1.jpg" class="photocard">
-                <img src="https://raw.github.com/peterwestendorp/shelves/master/photos/4.jpg" alt="">
+                <img src="img/style4.jpeg" alt="">
               </a>
               <a href="#" class="photocard">
-                <img src="https://raw.github.com/peterwestendorp/shelves/master/photos/5.jpg" alt="">
+                <img src="img/style5.jpeg" alt="">
               </a>
               <a href="#" class="photocard">
-                <img src="https://raw.github.com/peterwestendorp/shelves/master/photos/6.jpg" alt="">
+                <img src="img/style6.jpeg" alt="">
               </a>
 
             </div>
