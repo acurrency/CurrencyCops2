@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>LinkUp</title>
+  <title>CC - Fresh Styles</title>
 
 
 
