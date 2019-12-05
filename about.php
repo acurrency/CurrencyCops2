@@ -4,17 +4,8 @@
 
     <head>
 <!-- Mobile Specific Meta -->
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
-	<link rel="shortcut icon" href="img/fav.png">
-	<!-- Author Meta -->
-	<meta name="author" content="CodePixar">
-	<!-- Meta Description -->
-	<meta name="description" content="">
-	<!-- Meta Keyword -->
-	<meta name="keywords" content="">
-	<!-- meta character set -->
-	<meta charset="UTF-8">
+	
 	<!-- Site Title -->
 	<title>About CurrencyCops</title>
 	<link href = "img/product/llogo.png" rel = "icon" type = "image/x-icon">
@@ -114,37 +105,7 @@
             <p>Ride the wave!</p>
         </section>
 
-        <!-- Contact 
-        <section class="bg--secondary-color pt3 pb3">
-            <div class="container">
-                <div class="mb2 align--center">
-                    <h3 class="mb1">Contact us for more information regarding CurrencyCops.</h3>
-                    <p>We will be in contact with you soon!</p>
-                </div>
-                <form>
-                    <div class="grid-row">
-                        <div class="grid-column span-half mt1">
-                            <label class="label" for="name">First name</label>
-                            <input class="form-control" id="fname">
-                        </div>
-                        <div class="grid-column span-half mt1">
-                            <label class="label" for="email">Last name</label>
-                            <input class="form-control" id="lname" type="text">
-                        </div>
-                        <div class="grid-column span-half mt1">
-                            <label class="label" for="email">Email</label>
-                            <input class="form-control" id="email" type="email">
-                        </div>
-                    </div>
-                    
-                    <label class="label mt1" for="message">Message</label>
-                    <textarea class="form-control" id="message"></textarea>
-                    <div class="align--right mt1">
-                        <button class="btn btn--outline">Send</button>
-                    </div>
-                </form>
-            </div>
-        </section> -->
+       
         
     </main>
 
