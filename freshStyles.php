@@ -88,13 +88,13 @@
             <div class="face front">
 
               <a href="#" data-img-url="../photos/1.jpg" class="photocard">
-                <img src="https://raw.github.com/peterwestendorp/shelves/master/photos/7.jpg" alt="">
+                <img src="img/style7.jpg" alt="">
               </a>
               <a href="#" class="photocard">
-                <img src="https://raw.github.com/peterwestendorp/shelves/master/photos/8.jpg" alt="">
+                <img src="img/style8.jpeg" alt="">
               </a>
               <a href="#" class="photocard">
-                <img src="https://raw.github.com/peterwestendorp/shelves/master/photos/9.jpg" alt="">
+                <img src="img/style9.jpeg" alt="">
               </a>
 
             </div>
